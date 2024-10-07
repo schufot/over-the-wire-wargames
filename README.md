@@ -1,2 +1,5 @@
-# over-the-wire-wargames
-Over the Wire Wargames Doc
+# [Over the Wire Wargames](https://overthewire.org/wargames/) Documentation
+
+## Bandit
+
+- SSH
