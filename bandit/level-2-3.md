@@ -8,5 +8,5 @@
   - file - determine file type
   - du - estimate file space usage
   - find - search for files in a directory hierarchy
-- Solution: Use the above commands to open the - file where the password is stored in
+- Solution: cat 'spaces in this filename'
 - Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
