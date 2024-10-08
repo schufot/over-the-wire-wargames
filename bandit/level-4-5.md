@@ -1,6 +1,6 @@
 # Level 4 to 5
 
-- Exercise: The password for the next level is stored in a hidden file in the inhere directory.
+- Exercise: The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
 - Background:
   - ls - list directory contents
   - cd - change the working directory
