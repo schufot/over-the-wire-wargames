@@ -1,6 +1,6 @@
 # Level 3 to 4
 
-- Exercise: TThe password for the next level is stored in a hidden file in the inhere directory.
+- Exercise: The password for the next level is stored in a hidden file in the inhere directory.
 - Background:
   - ls - list directory contents
   - cd - change the working directory
