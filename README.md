@@ -1,4 +1,4 @@
-# [Over the Wire Wargames](https://overthewire.org/wargames/) Documentation
+# [Over the Wire Wargames](https://overthewire.org/wargames/) Write Ups
 
 ## Bandit
 
