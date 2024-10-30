@@ -13,11 +13,9 @@
   - netstat - print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
   - ss - another utility to investigate sockets
 - Solution:
-  1. ''for port in {31000..32000}; do (echo > /dev/tcp/127.0.0.1/$port) >/dev/null 2>&1 && echo "Port $port is open"; done
-'' - check open ports
-  2. ''for port in {31000..32000}; do echo | openssl s_client -connect 127.0.0.1:$port 2>/dev/null && echo "Port $port supports SSL/TLS" || echo "Port $port does not support SSL/TLS"; done
-'' - check for SSL/TLS
-  3. openssl s_client -ign_eof -connect localhost:31790 (without ''-ign_eof'' KEYUPDATE will be displayed)
+  1. for port in {31000..32000}; do (echo > /dev/tcp/127.0.0.1/$port) >/dev/null 2>&1 && echo "Port $port is open"; done - check open ports
+  2. for port in {31000..32000}; do echo | openssl s_client -connect 127.0.0.1:$port 2>/dev/null && echo "Port $port supports SSL/TLS" || echo "Port $port does not support SSL/TLS"; done - check for SSL/TLS
+  3. openssl s_client -ign_eof -connect localhost:31790 (without -ign_eof KEYUPDATE will be displayed)
 - Password:
 -----BEGIN RSA PRIVATE KEY-----
 MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
