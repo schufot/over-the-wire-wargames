@@ -9,5 +9,7 @@
   - nc - arbitrary TCP and UDP connections and listens
   - openssl - OpenSSL command line program
   - nmap - Network exploration tool and security / port scanner
-- Solution: ssh -i '/home/bandit13/sshkey.private' bandit14@bandit.labs.overthewire.org -p 2220
-- Password: /
+- Solution:
+	- ssh -i '/home/bandit13/sshkey.private' bandit14@bandit.labs.overthewire.org -p 2220
+ 	- cat /etc/bandit_pass/bandit14
+- Password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
