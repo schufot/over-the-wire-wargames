@@ -7,4 +7,5 @@
   - ls - list directory contents
   - diff - compare files line by line
 - Solution:
-- Password:
+  - diff passwords.old passwords.new
+- Password: kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
