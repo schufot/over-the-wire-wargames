@@ -3,3 +3,12 @@
 ## Bandit
 
 - SSH
+- Linux user and group permission
+- Base64
+- ROT13
+- Compressed files
+- Hexdump
+- SSH key
+- PKA
+- SSL/TLS encryption
+- Port scanner
