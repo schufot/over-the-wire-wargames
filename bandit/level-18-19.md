@@ -1,10 +1,13 @@
 # [Level 18 to 19](https://overthewire.org/wargames/bandit/bandit19.html)
 
-- Exercise:
+- Login
+```
+SSH: ssh bandit18@bandit.labs.overthewire.org -p 2220
+Password: kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+```
+- Exercise: The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.
 - Background:
-  - cat - concatenate files and print on the standard output
-  - grep - print lines that match patterns
-  - ls - list directory contents
-  - diff - compare files line by line
+  - `.bashrc`: runs every time a terminal is loaded -> also runs when logging in through SSH
 - Solution:
-- Password:
+  - ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+- Password: IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
