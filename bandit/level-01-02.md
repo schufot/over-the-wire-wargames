@@ -14,4 +14,4 @@ Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
   - du - estimate file space usage
   - find - search for files in a directory hierarchy
 - Solution: cat ./-
-- Password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+- Password: `263JGJPfgU6LtdEvgfWU1XP5yac29mFx`
