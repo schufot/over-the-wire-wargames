@@ -14,4 +14,4 @@ Password: bandit0
   - du - estimate file space usage
   - find - search for files in a directory hierarchy
 - Solution: cat readme
-- Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+- Password: `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`
