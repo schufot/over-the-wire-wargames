@@ -7,4 +7,4 @@
   - Port is an endpoint that allows your computer to know which service should be accessed
   - ssh <username>@<server> -p <port>: server can be replaced with an URL or IP address, don't need to add port, if we connect to standard port 22
 - Solution: ssh bandit0@bandit.labs.overthewire.org -p 2220
-- Passsword: bandit0
+- Passsword: `bandit0`
