@@ -2,16 +2,16 @@
 
 ## Bandit
 
-- Level 0 - SSH login
-- Level 1 - Read a file
-- Level 2 - Unusually named files
-- Level 3 - Spaces in a filename
-- Level 4 - Hidden files
-- Level 5 - File types, specifically human-readable files
-- Level 6 - Human-readable files, file sizes and non-executable files
-- Level 7 - Find a file with specific user and group ownership
-- Level 8 - Learning grep and piping
-- Level 9 - Linux command uniq and sort, to find lines only appearing once
+- Level 00 - SSH login
+- Level 01 - Read a file
+- Level 02 - Unusually named files
+- Level 03 - Spaces in a filename
+- Level 04 - Hidden files
+- Level 05 - File types, specifically human-readable files
+- Level 06 - Human-readable files, file sizes and non-executable files
+- Level 07 - Find a file with specific user and group ownership
+- Level 08 - Learning grep and piping
+- Level 09 - Linux command uniq and sort, to find lines only appearing once
 - Level 10 - The ‘strings’ command. Find human-readable strings in a file
 - Level 11 - Base64
 - Level 12 - Rot13 substitution cipher as Linux command with ’tr’
