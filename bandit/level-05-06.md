@@ -1,4 +1,4 @@
-# [Level 5 to 6](https://overthewire.org/wargames/bandit/bandit6.html) - Human-readable files, file sizes and non-executable files
+# [Level 05 to 06](https://overthewire.org/wargames/bandit/bandit6.html) - Human-readable files, file sizes and non-executable files
 
 - Login
 ```
