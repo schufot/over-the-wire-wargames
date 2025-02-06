@@ -1,5 +1,10 @@
-# [Level 12 to 13](https://overthewire.org/wargames/bandit/bandit13.html)
+# [Level 12 to 13](https://overthewire.org/wargames/bandit/bandit13.html) - Hexdumps and compression and file signatures
 
+- Login
+```
+SSH: ssh bandit12@bandit.labs.overthewire.org -p 2220
+Password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+```
 - Exercise: The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work. Use mkdir with a hard to guess directory name. Or better, use the command “mktemp -d”. Then copy the datafile using cp, and rename it using mv
 - Background:
   - In a hex dump, each byte (8 bits) is represented as a two-digit hexadecimal number. Hex dumps are commonly organized into rows of 8 or 16 bytes, sometimes separated by whitespaces.
@@ -42,4 +47,4 @@
 	22. mv data8.bin data8.gz
 	23. gzip -d data8.gz
 	24. cat data8
-- Password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+- Password: `FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn`
