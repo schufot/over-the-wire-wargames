@@ -1,5 +1,10 @@
-# [Level 10 to 11](https://overthewire.org/wargames/bandit/bandit11.html)
+# [Level 10 to 11](https://overthewire.org/wargames/bandit/bandit11.html) - Base64
 
+- Login
+```
+SSH: ssh bandit10@bandit.labs.overthewire.org -p 2220
+Password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+```
 - Exercise: The password for the next level is stored in the file data.txt, which contains base64 encoded data
 - Background:
   - Base64 encodes (binary) data; the resulting Base64 data will only contain 64 different ASCII characters
@@ -15,4 +20,4 @@
   - xxd - make a hex dump or do the reverse
 - Solution:
   - base64 data.txt -d
-- Password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+- Password: `dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr`
