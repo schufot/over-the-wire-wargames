@@ -1,5 +1,10 @@
-# [Level 14 to 15](https://overthewire.org/wargames/bandit/bandit15.html)
+# [Level 14 to 15](https://overthewire.org/wargames/bandit/bandit15.html) - Netcat and first network communication
 
+- Login
+```
+SSH: ssh bandit14@bandit.labs.overthewire.org -p 2220
+Password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+```
 - Exercise: The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
 - Background:
   - [How the internet works](https://www.youtube.com/watch?v=7_LPdttKXPc):
@@ -17,4 +22,4 @@
   - openssl - OpenSSL command line program
   - nmap - Network exploration tool and security / port scanner
 - Solution: echo "MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS" | nc localhost 30000
-- Password: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+- Password: `8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo`
