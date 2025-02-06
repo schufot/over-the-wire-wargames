@@ -1,5 +1,10 @@
-# [Level 13 to 14](https://overthewire.org/wargames/bandit/bandit14.html)
+# [Level 13 to 14](https://overthewire.org/wargames/bandit/bandit14.html) - SSH Login with key and transferring files from a remote host
 
+- Login
+```
+SSH: ssh bandit13@bandit.labs.overthewire.org -p 2220
+Password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+```
 - Exercise: The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. Note: localhost is a hostname that refers to the machine you are working on
 - Background:
   - PKA: Authenticating entity has a public key and a private key (= large number), private key is kept on the computer you log in from while the public key is stored on the .ssh/authorized_keys file on all the computers you want to log in to
@@ -12,4 +17,4 @@
 - Solution:
 	- ssh -i '/home/bandit13/sshkey.private' bandit14@bandit.labs.overthewire.org -p 2220
  	- cat /etc/bandit_pass/bandit14
-- Password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+- Password: `MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS`
