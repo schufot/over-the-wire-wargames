@@ -1,5 +1,10 @@
-# [Level 16 to 17](https://overthewire.org/wargames/bandit/bandit17.html)
+# [Level 16 to 17](https://overthewire.org/wargames/bandit/bandit17.html) - Port and Service Scanning with Nmap and SSL repetition
 
+- Login
+```
+SSH: ssh bandit16@bandit.labs.overthewire.org -p 2220
+Password: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+```
 - Exercise: The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First find out which of these ports have a server listening on them. Then find out which of those speak SSL/TLS and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it. Helpful note: Getting “DONE”, “RENEGOTIATING” or “KEYUPDATE”? Read the “CONNECTED COMMANDS” section in the manpage.
 - Background:
   - Port scanner: Application designed to probe a server or host for open ports
@@ -50,4 +55,4 @@
   8. Make sshkey.priate only readable with chmod 400 sshkey.private
   9. ssh -i sshkey.private bandit17@localhost -p 2220
   10. cat /etc/bandit_pass/bandit17
-- Password: xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+- Password: `xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn`
