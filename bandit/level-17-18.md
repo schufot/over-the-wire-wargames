@@ -13,4 +13,5 @@ Password: / (Private key from previous level)
   - diff - compare files line by line
 - Solution:
   - diff passwords.old passwords.new
-- Password: `kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd`
+- Password: `x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO`
+
