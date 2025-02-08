@@ -1,4 +1,4 @@
-# [Level 21 to 22](https://overthewire.org/wargames/bandit/bandit22.html) - Setuid binary, netcat and background processes/jobs
+# [Level 21 to 22](https://overthewire.org/wargames/bandit/bandit22.html) - Cronjobs
 
 - Login
 ```
