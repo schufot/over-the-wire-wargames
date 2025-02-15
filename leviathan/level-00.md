@@ -9,5 +9,11 @@ Password: leviathan0
 - Background:
 - Solution:
 ```bash
+leviathan0@gibson:/home$ cd leviathan1
+leviathan0@gibson:/home/leviathan1$ ls
+check
+leviathan0@gibson:/home/leviathan1$ file check
+check: setuid regular file, no read permission
+
 ```
 - Password: ``
