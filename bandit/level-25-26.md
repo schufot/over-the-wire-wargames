@@ -38,4 +38,4 @@ bandit25@bandit:~$ ssh bandit26@localhost -i bandit26.sshkey -p 2220
 :shell
 bandit26@bandit:~$ cat /etc/bandit_pass/bandit26
 ```
-- Password: ``
+- Password: `s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ`
