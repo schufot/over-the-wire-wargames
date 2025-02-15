@@ -1,6 +1,6 @@
 # [Over the Wire Wargames](https://overthewire.org/wargames/) Write Ups
 
-## Bandit
+## Bandit - Basics
 
 - Level 00 - SSH login
 - Level 01 - Read a file
@@ -37,3 +37,9 @@
 - Level 32 - Git push, commit, ignore, add
 - Level 33 - Linux variables and shell escape
 - Level 34 - /
+
+## Leviathan - nix commands
+
+## Natas - Serverside web-security
+
+## Krypton - Cryptography
