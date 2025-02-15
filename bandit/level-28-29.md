@@ -1,4 +1,4 @@
-# [Level 28 to 29](https://overthewire.org/wargames/bandit/bandit29.html)- Git history
+# [Level 28 to 29](https://overthewire.org/wargames/bandit/bandit29.html) - Git history
 
 - Login
 ```
