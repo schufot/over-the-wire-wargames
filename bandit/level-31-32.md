@@ -1,4 +1,4 @@
-# [Level 31 to 32](https://overthewire.org/wargames/bandit/bandit31.html)- Git push, commit, ignore, add
+# [Level 31 to 32](https://overthewire.org/wargames/bandit/bandit32.html) - Git push, commit, ignore, add
 - Login
 ```
 SSH: ssh bandit31@bandit.labs.overthewire.org -p 2220
