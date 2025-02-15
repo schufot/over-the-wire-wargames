@@ -1,4 +1,5 @@
-# [Level 30 to 31](https://overthewire.org/wargames/bandit/bandit30.html)- Git tagging
+# [Level 30 to 31](https://overthewire.org/wargames/bandit/bandit30.html) - Git tagging
+
 - Login
 ```
 SSH: ssh bandit30@bandit.labs.overthewire.org -p 2220
