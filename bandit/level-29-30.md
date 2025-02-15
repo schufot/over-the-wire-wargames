@@ -5,7 +5,7 @@
 SSH: ssh bandit29@bandit.labs.overthewire.org -p 2220
 Password: 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
 ```
-- Exercise:There is a git repository at ssh://bandit29-git@localhost/home/bandit29-git/repo via the port 2220. The password for the user bandit29-git is the same as for the user bandit29. Clone the repository and find the password for the next level.
+- Exercise: There is a git repository at ssh://bandit29-git@localhost/home/bandit29-git/repo via the port 2220. The password for the user bandit29-git is the same as for the user bandit29. Clone the repository and find the password for the next level.
 - Background:
   - git: version control system 
 - Solution:
