@@ -1,4 +1,4 @@
-# [Level 29 to 30](https://overthewire.org/wargames/bandit/bandit30.html)- Git banching basics
+# [Level 29 to 30](https://overthewire.org/wargames/bandit/bandit30.html)- Git branching basics
 
 - Login
 ```
