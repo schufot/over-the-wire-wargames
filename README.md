@@ -43,3 +43,5 @@
 ## Natas - Serverside web-security
 
 ## Krypton - Cryptography
+
+- Level 01 - Base64
