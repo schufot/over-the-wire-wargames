@@ -1,4 +1,4 @@
-# [Level 00](https://overthewire.org/wargames/leviathan/leviathan0.html) - 
+# [Level 00](https://overthewire.org/wargames/leviathan/leviathan0.html) - HTML
 
 - Login
 ```
@@ -9,6 +9,6 @@ Password: natas0
 - Exercise: /
 - Background:
 - Solution:
-```bash
-```
-- Password: ``
+  - Open inspector of the developer tools of the browser
+  - ![image](https://github.com/user-attachments/assets/af566c00-07ce-4e46-882b-323c13144cc1)
+- Password: `0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq`
