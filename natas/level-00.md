@@ -6,7 +6,7 @@ URL: http://natas0.natas.labs.overthewire.org
 Username: natas0
 Password: natas0
 ```
-- Exercise: /
+- Exercise: You can find the password for the next level on this page.
 - Background:
 - Solution:
   - Open inspector of the developer tools of the browser
