@@ -1,4 +1,4 @@
-# [Level 00](https://overthewire.org/wargames/leviathan/leviathan0.html) - HTML
+# [Level 00](https://overthewire.org/wargames/natas/natas0.html) - HTML
 
 - Login
 ```
