@@ -1,4 +1,4 @@
-# [Level 02-03](https://overthewire.org/wargames/krypton/krypton2.html) - ROT13
+# [Level 02-03](https://overthewire.org/wargames/krypton/krypton2.html) - Caesar cipher
 
 - Login
 ```
