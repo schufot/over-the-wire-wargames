@@ -29,37 +29,58 @@ Additional Information: The encrypt binary will look for the keyfile in your cur
   - ROT13: simple substituition cipher where each letter is replaced by the letter 13 after it in the alphabet
 - Solution:
 ```bash
-krypton1@bandit:/krypton/krypton1$ ls
-krypton2  README
-krypton1@bandit:/krypton/krypton1$ cat README
-Welcome to Krypton!
-
-This game is intended to give hands on experience with cryptography
-and cryptanalysis.  The levels progress from classic ciphers, to modern,
-easy to harder.
-
-Although there are excellent public tools, like cryptool,to perform
-the simple analysis, we strongly encourage you to try and do these
-without them for now.  We will use them in later excercises.
-
-** Please try these levels without cryptool first **
-
-
-The first level is easy.  The password for level 2 is in the file 
-'krypton2'.  It is 'encrypted' using a simple rotation called ROT13.  
-It is also in non-standard ciphertext format.  When using alpha characters for
-cipher text it is normal to group the letters into 5 letter clusters, 
-regardless of word boundaries.  This helps obfuscate any patterns.
-
-This file has kept the plain text word boundaries and carried them to
-the cipher text.
-
-Enjoy!
-krypton1@bandit:/krypton/krypton1$ file krypton2
-krypton2: ASCII text
-krypton1@bandit:/krypton/krypton1$ cat krypton2
-YRIRY GJB CNFFJBEQ EBGGRA
-krypton1@bandit:/krypton/krypton1$ echo "YRIRY GJB CNFFJBEQ EBGGRA" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
-LEVEL TWO PASSWORD ROTTEN
+krypton2@bandit:/home$ cat /krypton/krypton2/krypton3
+OMQEMDUEQMEK
+krypton2@bandit:/home$ mktemp -d
+/tmp/tmp.EO14qQ7WZt
+krypton2@bandit:/home$ cd /tmp/tmp.EO14qQ7WZt
+krypton2@bandit:/tmp/tmp.EO14qQ7WZt$ chmod 777 .
+krypton2@bandit:/tmp/tmp.EO14qQ7WZt$ touch solution.py
+krypton2@bandit:/tmp/tmp.EO14qQ7WZt$ nano solution.py
+krypton2@bandit:/tmp/tmp.EO14qQ7WZt$ cat solution.py
+import string
+charset = string.ascii_uppercase
+enc = "OMQEMDUEQMEK"
+for k in range(26):
+        dec = ""
+        for c in enc:
+                if c in charset:
+                        idx = charset.find(c)
+                        idx += k
+                        if idx >= len(charset):
+                                idx -= len(charset)
+                        elif idx < 0:
+                                idx += len(charset)
+                        dec += charset[idx]
+                else:
+                        dec = dec + c
+        print(dec)
+krypton2@bandit:/tmp/tmp.EO14qQ7WZt$ python3 solution.py
+OMQEMDUEQMEK
+PNRFNEVFRNFL
+QOSGOFWGSOGM
+RPTHPGXHTPHN
+SQUIQHYIUQIO
+TRVJRIZJVRJP
+USWKSJAKWSKQ
+VTXLTKBLXTLR
+WUYMULCMYUMS
+XVZNVMDNZVNT
+YWAOWNEOAWOU
+ZXBPXOFPBXPV
+AYCQYPGQCYQW
+BZDRZQHRDZRX
+CAESARISEASY
+DBFTBSJTFBTZ
+ECGUCTKUGCUA
+FDHVDULVHDVB
+GEIWEVMWIEWC
+HFJXFWNXJFXD
+IGKYGXOYKGYE
+JHLZHYPZLHZF
+KIMAIZQAMIAG
+LJNBJARBNJBH
+MKOCKBSCOKCI
+NLPDLCTDPLDJ
 ```
-- Password: `ROTTEN`
+- Password: `CAESARISEASY`
