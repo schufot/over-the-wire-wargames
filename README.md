@@ -47,3 +47,5 @@
 ## Krypton - Cryptography
 
 - Level 01 - Base64
+- Level 02 - ROT13
+- Level 03 - Caesar cipher
