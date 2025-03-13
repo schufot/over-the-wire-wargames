@@ -26,7 +26,7 @@ Additional Information: The encrypt binary will look for the keyfile in your cur
   ciphertext  keyfile.dat
   ```
 - Background:
-  - ROT13: simple substituition cipher where each letter is replaced by the letter 13 after it in the alphabet
+  - One of the simplest and most widely known encryption techniques, type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabetafter it in the alphabet
 - Solution:
 ```bash
 krypton2@bandit:/home$ cat /krypton/krypton2/krypton3
