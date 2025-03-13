@@ -3,7 +3,7 @@
 - Login
 ```
 SSH: ssh krypton2@krypton.labs.overthewire.org -p 2231
-Password: ROTTEN
+Password: CAESARISEASY
 ```
 - Exercise: ROT13 is a simple substitution cipher. Substitution ciphers are a simple replacement algorithm. In this example of a substitution cipher, we will explore a ‘monoalphebetic’ cipher. Monoalphebetic means, literally, “one alphabet” and you will see why.
 This level contains an old form of cipher called a ‘Caesar Cipher’. A Caesar cipher shifts the alphabet by a set number. For example:
