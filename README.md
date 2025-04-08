@@ -44,6 +44,7 @@
 
 - Level 00: HTML
 - Level 01: Dev tools
+- Level 02: Web server files
 
 ## Krypton - Cryptography
 
