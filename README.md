@@ -43,6 +43,7 @@
 ## Natas - Serverside web-security
 
 - Level 00: HTML
+- Level 01: Dev tools
 
 ## Krypton - Cryptography
 
