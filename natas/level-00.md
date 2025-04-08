@@ -7,7 +7,7 @@ Username: natas0
 Password: natas0
 ```
 - Exercise: You can find the password for the next level on this page.
-- Background:
+- Background: /
 - Solution:
   - Open inspector of the developer tools of the browser
   - ![image](https://github.com/user-attachments/assets/af566c00-07ce-4e46-882b-323c13144cc1)
