@@ -16,4 +16,14 @@ Password: QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
   - Relevant for this: Authorization and Referer (URL from which the request is sent)
   - All this is handled by browser, but you can manipulate it
 - Solution:
+  - Text on website seems to state that it's important from what page the link was requested -> Change the Referer header to the expected site
+  - Open Developer Tools and go to Network and refresh
+  - You should see the requests that were sent
+  - ![image](https://github.com/user-attachments/assets/a008e52e-63ab-4c1c-97c6-2004ab9526cc)
+  - Right click on index.php > Copy Value > Copy cURL
+
+```
+  curl 'http://natas4.natas.labs.overthewire.org/index.php' --compressed -H 'User-Agent: Mozilla/5.0...
+```
+
 - Password: `QryZXc2e0zahULdHrtHxzyYkj59kUxLQ`
