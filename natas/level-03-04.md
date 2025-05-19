@@ -11,5 +11,9 @@ Password: QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
 ![image](https://github.com/user-attachments/assets/d99c9d95-18d2-4f0e-a916-ff76c68e8efe)
 
 - Background:
+  - Communication between client (my machine) and server (hosts the website) is done by request-response: I send a request for a certain page and the server sends the response with content
+  - Will follow different protocols and structures -> In this case HTTP (Hypertext Transfer Protocol): Request includes the request methd (GET, POST,...), the requested URL, the protocol version (can also include additional information, so-called request headers)
+  - Relevant for this: Authorization and Referer (URL from which the request is sent)
+  - All this is handled by browser, but you can manipulate it
 - Solution:
 - Password: `QryZXc2e0zahULdHrtHxzyYkj59kUxLQ`
