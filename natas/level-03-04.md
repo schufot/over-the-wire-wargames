@@ -30,4 +30,4 @@ Password: QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
 - Add the line Referer: http://natas5.natas.labs.overthewire.org/
 - 
 
-- Password: `QryZXc2e0zahULdHrtHxzyYkj59kUxLQ`
+- Password: `0n35PkggAPm2zbEpOU802c0x0Msn1ToK`
