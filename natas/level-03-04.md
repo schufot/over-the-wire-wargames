@@ -28,6 +28,5 @@ Password: QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
 
 - Right click on index.php and click on Edit and Resend
 - Add the line Referer: http://natas5.natas.labs.overthewire.org/
-- 
-
+- ![Screenshot_20250521_235204_](https://github.com/user-attachments/assets/47bbf04c-a11d-4b9e-8219-ddcff8769917)
 - Password: `0n35PkggAPm2zbEpOU802c0x0Msn1ToK`
