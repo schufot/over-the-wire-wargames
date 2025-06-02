@@ -1,4 +1,4 @@
-# [Level 03 to 04](https://overthewire.org/wargames/natas/natas4.html) - HTML
+# [Level 03 to 04](https://overthewire.org/wargames/natas/natas4.html) - Referer header
 
 - Login
 ```
