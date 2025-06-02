@@ -46,6 +46,7 @@
 - Level 01: Dev tools
 - Level 02: Web server files
 - Level 03: Robots
+- Level 04: Referer header
 
 ## Krypton - Cryptography
 
