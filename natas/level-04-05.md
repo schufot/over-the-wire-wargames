@@ -17,6 +17,6 @@ Password: 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
 - Solution:
   - Website should determine that we're logged in through a cookie
   - ![image](https://github.com/user-attachments/assets/ec7f817c-bc0b-4a5a-aa1a-b8a3a81366dc)
-  - Change loggedin value from 0 to 1
+  - Change loggedin value from 0 to 1 and refresh page
   - ![image](https://github.com/user-attachments/assets/08071521-7b99-4a2e-b451-f67725b813fb)
 - Password: `0RoJwHdSKWFTYR5WuiAewauSuNaBXned`
