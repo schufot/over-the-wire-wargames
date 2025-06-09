@@ -14,7 +14,10 @@ Password: 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
     - Scripting language
     - Back-end in web dev (meaning processed on server side)
     - Can be integrated in HTML (code will not be exposed to user)
-  - 
+    - In HTML enclosed in `<? ?>` or `<?php ?>`
+    - Variables start with `$`
+    - Content of forms sent with a POST request can be accessed with `$_POST` variable
+    - Possible to include code from other files into a file using `include` or `require`
 - Solution:
   - Website should determine that we're logged in through a cookie
   - ![image](https://github.com/user-attachments/assets/ec7f817c-bc0b-4a5a-aa1a-b8a3a81366dc)
