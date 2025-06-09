@@ -9,13 +9,12 @@ Password: 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
 - Exercise:
 ![image](https://github.com/user-attachments/assets/fc9700e2-f2c5-4ed0-8a8c-fca73d90683e)
 ![image](https://github.com/user-attachments/assets/a2c50848-b7d6-44c8-8fe7-f0973b7cb608)
-
 - Background:
-  - HTTP is stateless:
-    - No information about the session/previous requests is saved on the receivers/servers side
-    - Client/browser saves session states and sends them with new requests
-    - Session information is stored in cookies, allowing the otherwise stateless protocol to store and transfer stateful information
-  - Cookies are sent with HTTP headers and are stored on the client side (client can manipulate them)
+  - PHP:
+    - Scripting language
+    - Back-end in web dev (meaning processed on server side)
+    - Can be integrated in HTML (code will not be exposed to user)
+  - 
 - Solution:
   - Website should determine that we're logged in through a cookie
   - ![image](https://github.com/user-attachments/assets/ec7f817c-bc0b-4a5a-aa1a-b8a3a81366dc)
