@@ -23,4 +23,7 @@ Password: 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
   - PHP part processes this information, POST request is checked for a variable with the name `submit`
   - If the variable exists, content or the inputed `secret` variable `$_POST['secret']` is compared to a variable called `secret`
   - However, code does not contain an un/initialized variable with this name -> But contains `include` statement (variables or functions are included from another file, statement shows a relative path to the file)
-- Password: `0RoJwHdSKWFTYR5WuiAewauSuNaBXned`
+  - Visit http://natas6.natas.labs.overthewire.org/includes/secret.inc and get the password
+  - ![image](https://github.com/user-attachments/assets/69de6f22-1716-4156-9004-3499ef289562)
+  - ![image](https://github.com/user-attachments/assets/5c41609e-8b4a-43e7-855d-f024f54c7269)
+- Password: `bmg8SvU1LizuWjx3y7xkNERkHxGre0GS`
