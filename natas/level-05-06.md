@@ -1,4 +1,4 @@
-# [Level 05 to 06](https://overthewire.org/wargames/natas/natas6.html) - HTTP-Cookies
+# [Level 05 to 06](https://overthewire.org/wargames/natas/natas6.html) - PHP
 
 - Login
 ```
