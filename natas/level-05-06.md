@@ -21,5 +21,6 @@ Password: 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
 - Solution:
   - HTML form shows what happens with the input: POST request is used to send the input with the variable name `secret`
   - PHP part processes this information, POST request is checked for a variable with the name `submit`
-  - If the variable exists, content or the inputed `secret` variable `$_POST[secret]` is compared to a variable called `secret`
+  - If the variable exists, content or the inputed `secret` variable `$_POST['secret']` is compared to a variable called `secret`
+  - However, code does not contain an un/initialized variable with this name -> But contains `include` statement (variables or functions are included from another file, statement shows a relative path to the file)
 - Password: `0RoJwHdSKWFTYR5WuiAewauSuNaBXned`
