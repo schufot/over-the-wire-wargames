@@ -7,7 +7,9 @@ Username: natas6
 Password: 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
 ```
 - Exercise:
-![image](https://github.com/user-attachments/assets/92b07762-abf9-49ee-b91c-18c898ef1746)
+![image](https://github.com/user-attachments/assets/fc9700e2-f2c5-4ed0-8a8c-fca73d90683e)
+![image](https://github.com/user-attachments/assets/a2c50848-b7d6-44c8-8fe7-f0973b7cb608)
+
 - Background:
   - HTTP is stateless:
     - No information about the session/previous requests is saved on the receivers/servers side
