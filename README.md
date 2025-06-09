@@ -48,6 +48,7 @@
 - Level 03: Robots
 - Level 04: Referer header
 - Level 05: HTTP-Cookies
+- Level 06: PHP
 
 ## Krypton - Cryptography
 
