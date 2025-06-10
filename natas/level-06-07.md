@@ -12,4 +12,9 @@ Password: bmg8SvU1LizuWjx3y7xkNERkHxGre0GS
 
 - Background:
 - Solution:
-- Password: `bmg8SvU1LizuWjx3y7xkNERkHxGre0GS`
+  - Set end of URL to `page=password`
+  - ![image](https://github.com/user-attachments/assets/0cea9c08-5777-49d5-be42-7610c0248b9d) -> Hint gets displayed
+  - ![image](https://github.com/user-attachments/assets/c34696a9-8912-4c37-a27d-f324ef22edc5)
+
+
+- Password: `xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q`
