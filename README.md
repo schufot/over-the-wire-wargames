@@ -49,6 +49,7 @@
 - Level 04: Referer header
 - Level 05: HTTP-Cookies
 - Level 06: PHP
+- Level 07: PHP script
 
 ## Krypton - Cryptography
 
