@@ -24,4 +24,27 @@ function encodeSecret($secret) {
    2. Reverses the result with `strrev()`
    3. Converts the reversed string into hexadecimal using `bin2hex()`
  - To pass the `if` condition, we need to reverse this encoding process to find the correct `$_POST['secret']` that would match with `$encodedSecret`
+ - We want to decode this:
+
+```php
+$encodedSecret = "3d3d516343746d4d6d6c315669563362";
+```
+ 1. Convert hex to raw string
+
+```php
+$hex = "3d3d516343746d4d6d6c315669563362";
+$bin = hex2bin($hex);  // reversed base64 string: ==QcCtmMml1ViV3b
+```
+
+ 2. Reverse the string
+
+```php
+strrev("==QcCtmMml1ViV3b") = "b3ViV1lmMmtCcQ=="
+```
+
+ 3. Base64 decode
+
+```php
+base64_decode("b3ViV1lmMmtCcQ==") = "oubWYm2tBq"
+```
 - Password: `xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q`
