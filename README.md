@@ -50,6 +50,7 @@
 - Level 05: HTTP-Cookies
 - Level 06: PHP
 - Level 07: PHP script
+- Level 08: Hex, reverse, base64
 
 ## Krypton - Cryptography
 
