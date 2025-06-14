@@ -45,6 +45,6 @@ strrev("==QcCtmMml1ViV3b") = "b3ViV1lmMmtCcQ=="
  3. Base64 decode
 
 ```php
-base64_decode("b3ViV1lmMmtCcQ==") = "oubWYm2tBq"
+base64_decode("b3ViV1lmMmtCcQ==") = "oubWYf2kBq"
 ```
 - Password: `xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q`
