@@ -47,4 +47,6 @@ strrev("==QcCtmMml1ViV3b") = "b3ViV1lmMmtCcQ=="
 ```php
 base64_decode("b3ViV1lmMmtCcQ==") = "oubWYf2kBq"
 ```
-- Password: `xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q`
+
+4. Access granted. The password for natas9 is ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
+- Password: `ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t`
