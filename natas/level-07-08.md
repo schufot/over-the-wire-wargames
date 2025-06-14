@@ -1,4 +1,4 @@
-# [Level 07 to 08](https://overthewire.org/wargames/natas/natas8.html) - PHP script
+# [Level 07 to 08](https://overthewire.org/wargames/natas/natas8.html) - Hex, reverse, base64
 
 - Login
 ```
