@@ -10,6 +10,7 @@ Password: xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q
 ![image](https://github.com/user-attachments/assets/0dc6ff34-dea9-4fe6-aacd-4d26835758fd)
 ![image](https://github.com/user-attachments/assets/8fa99854-014b-43ce-9597-f44713e7e2a2)
 - Background:
+    - Hexadecimal: Positional numeral system that represents numbers using a radix (base) of sixteen
 - Solution:
 
 ```php
