@@ -12,6 +12,7 @@ Password: xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q
 - Background:
     - Hexadecimal: Positional numeral system that represents numbers using a radix (base) of sixteen
     - strrev: Return string in reverse order
+    - Base64: Group of binary-to-text encoding schemes that transforms binary data into a sequence of printable characters, limited to a set of 64 unique characters
 - Solution:
 
 ```php
