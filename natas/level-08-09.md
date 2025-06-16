@@ -12,6 +12,12 @@ Password: ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
 
 - Background:
 - Solution:
+  - Form uses PHP `passthru()` function to run
+  - Input is directly inserted into the command unsanitized
+  - We can exploit this by injecting shell commands
+  - Password for `natas10` is stored on the server at `/etc/natas_webpass/natas10`
+  - Enter as the `needle` input: `anything; cat /etc/natas_webpass/natas10`
+  - Input goes into shell like: `grep -i anything; cat /etc/natas_webpass/natas10 dictionary.txt`
 
 ![image](https://github.com/user-attachments/assets/03b8edc7-63e3-4d86-a7e5-52b632e0994e)
 
