@@ -12,4 +12,7 @@ Password: ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
 
 - Background:
 - Solution:
-- Password: `ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t`
+
+![image](https://github.com/user-attachments/assets/03b8edc7-63e3-4d86-a7e5-52b632e0994e)
+
+- Password: `t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu`
