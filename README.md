@@ -51,6 +51,7 @@
 - Level 06: PHP
 - Level 07: PHP script
 - Level 08: Hex, reverse, base64
+- Level 09: Command injection
 
 ## Krypton - Cryptography
 
