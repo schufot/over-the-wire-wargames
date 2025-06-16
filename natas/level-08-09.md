@@ -1,4 +1,4 @@
-# [Level 08 to 09](https://overthewire.org/wargames/natas/natas9.html) - 
+# [Level 08 to 09](https://overthewire.org/wargames/natas/natas9.html) - Command injection
 
 - Login
 ```
@@ -11,6 +11,11 @@ Password: ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
 ![image](https://github.com/user-attachments/assets/a9611c67-0c0c-42bb-9c07-98bb292167bb)
 
 - Background:
+  - Command injection:
+    - Attack in which the goal is execution of arbitrary commands on the host operating system via a vulnerable application
+    - Possible when an application passes unsafe user supplied data (forms, cookies, HTTP headers etc.) to a system shell
+    - Attacker-supplied operating system commands are usually executed with the privileges of the vulnerable application
+    - Possible largely due to insufficient input validation
 - Solution:
   - Form uses PHP `passthru()` function to run
   - Input is directly inserted into the command unsanitized
