@@ -1,4 +1,4 @@
-# [Level 09 to 10](https://overthewire.org/wargames/natas/natas10.html) - Command injection
+# [Level 09 to 10](https://overthewire.org/wargames/natas/natas10.html) - Command injection with filtering
 
 - Login
 ```
