@@ -12,4 +12,10 @@ Password: t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu
 
 - Background:
 - Solution:
+  - Executes a shell command using user input `$key`, after filtering for three characters:
+``` php
+if(preg_match('/[;|&]/',$key)) {
+  print "Input contains an illegal character!";
+```
+  - `;`, `|` and `&` are blocked, but we can still inject commands like `$(...)` and `...`
 - Password: `t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu`
