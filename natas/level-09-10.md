@@ -17,6 +17,8 @@ Password: t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu
   if(preg_match('/[;|&]/',$key)) {
     print "Input contains an illegal character!";
   ```
-  - `;`, `|` and `&` are blocked, but we can still inject commands like `$(...)` and `...`
-  - Enter in input field: `$(cat /etc/natas_webpass/natas11)`
-- Password: `t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu`
+  - `;`, `|` and `&` are blocked, but we can still inject commands like `''` and `...`
+  - Enter in input field: `'' /etc/natas_webpass/natas11`
+  - ![image](https://github.com/user-attachments/assets/00921a6b-a526-44cb-8624-92a00143c50d)
+
+- Password: `UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk`
