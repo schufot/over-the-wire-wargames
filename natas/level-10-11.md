@@ -39,9 +39,9 @@ Password: UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
   - The run:
   ```php
   <?php  
-  $defaultdata = array( "showpassword"=>"nyes", "bgcolor"=>"#ffffff");
+  $defaultdata = array( "showpassword"=>"yes", "bgcolor"=>"#ffffff");
   function xor_encrypt($in) {
-      $key = base64_decode('HmYkBwozJw4WNyAAFyB1VUcqOE1JZjUIBis7ABdmbU1GIjEJAyIxTRg%3D');
+      $key = 'eDWo';
       $text = $in;
       $outText = '';
   
@@ -52,8 +52,9 @@ Password: UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
   
       return $outText;
   }  
-  $key = xor_encrypt(json_encode($defaultdata));  
-  print "The XOR key is " . $key . "\n"
+  $new_cookie = base64_encode(xor_encrypt(json_encode($defaultdata)));  
+  print "The new cookie is " . $new_cookie . "\n"
   ?>
   ```
+  - Output: `The new cookie is HmYkBwozJw4WNyAAFyB1VUc9MhxHaHUNAic4Awo2dVVHZzEJAyIxCUc5`
 - Password: `UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk`
