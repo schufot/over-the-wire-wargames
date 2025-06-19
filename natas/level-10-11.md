@@ -12,6 +12,8 @@ Password: UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
 ![image](https://github.com/user-attachments/assets/f7293283-27d3-4400-900d-8c4667e21c8b)
 
 - Background:
+  - In cryptography, the simple XOR cipher is a type of additive cipher, an encryption algorithm that operates according to the principles: ![image](https://github.com/user-attachments/assets/61df674f-8512-43f6-bd77-9d811a42cce9)
+
 - Solution:
   - Get the cookie value: `HmYkBwozJw4WNyAAFyB1VUcqOE1JZjUIBis7ABdmbU1GIjEJAyIxTRg`
   - ![image](https://github.com/user-attachments/assets/1a88c2b7-0fc0-4603-944c-7229e11cb20e)
