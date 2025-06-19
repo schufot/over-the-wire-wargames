@@ -1,4 +1,4 @@
-# [Level 10 to 11](https://overthewire.org/wargames/natas/natas11.html) - Command injection with filtering
+# [Level 10 to 11](https://overthewire.org/wargames/natas/natas11.html) - XOR encryption
 
 - Login
 ```
@@ -13,4 +13,24 @@ Password: UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
 
 - Background:
 - Solution:
+
+  ```php
+  function xor_encrypt($in) {
+      $key = '<censored>';
+      $text = $in;
+      $outText = '';
+  
+      // Iterate through each character
+      for($i=0;$i<strlen($text);$i++) {
+      $outText .= $text[$i] ^ $key[$i % strlen($key)];
+      }
+  
+      return $outText;
+  ```
+
+  ``` php
+  function saveData($d) {
+      setcookie("data", base64_encode(xor_encrypt(json_encode($d))));
+  }
+  ```
 - Password: `UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk`
