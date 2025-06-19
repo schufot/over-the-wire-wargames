@@ -35,4 +35,25 @@ Password: UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
   print "The XOR key is " . $key . "\n"
   ?>
   ```
+  - Output: `The XOR key is eDWoeDWoeDWoeDWoeDWoeDWoeDWoeDWoeDWoeDWoe`
+  - The run:
+  ```php
+  <?php  
+  $defaultdata = array( "showpassword"=>"nyes", "bgcolor"=>"#ffffff");
+  function xor_encrypt($in) {
+      $key = base64_decode('HmYkBwozJw4WNyAAFyB1VUcqOE1JZjUIBis7ABdmbU1GIjEJAyIxTRg%3D');
+      $text = $in;
+      $outText = '';
+  
+      // Iterate through each character
+      for($i=0;$i<strlen($text);$i++) {
+      $outText .= $text[$i] ^ $key[$i % strlen($key)];
+      }
+  
+      return $outText;
+  }  
+  $key = xor_encrypt(json_encode($defaultdata));  
+  print "The XOR key is " . $key . "\n"
+  ?>
+  ```
 - Password: `UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk`
