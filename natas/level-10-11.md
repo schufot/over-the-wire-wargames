@@ -13,10 +13,14 @@ Password: UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
 
 - Background:
 - Solution:
-
+  - Get the cookie value: `HmYkBwozJw4WNyAAFyB1VUcqOE1JZjUIBis7ABdmbU1GIjEJAyIxTRg`
+  - ![image](https://github.com/user-attachments/assets/1a88c2b7-0fc0-4603-944c-7229e11cb20e)
+  - Run the following with the cookie value:
   ```php
+  <?php  
+  $defaultdata = array( "showpassword"=>"no", "bgcolor"=>"#ffffff");
   function xor_encrypt($in) {
-      $key = '<censored>';
+      $key = base64_decode('HmYkBwozJw4WNyAAFyB1VUcqOE1JZjUIBis7ABdmbU1GIjEJAyIxTRg%3D');
       $text = $in;
       $outText = '';
   
@@ -26,11 +30,9 @@ Password: UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
       }
   
       return $outText;
-  ```
-
-  ``` php
-  function saveData($d) {
-      setcookie("data", base64_encode(xor_encrypt(json_encode($d))));
-  }
+  }  
+  $key = xor_encrypt(json_encode($defaultdata));  
+  print "The XOR key is " . $key . "\n"
+  ?>
   ```
 - Password: `UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk`
