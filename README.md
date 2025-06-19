@@ -53,6 +53,7 @@
 - Level 08: Hex, reverse, base64
 - Level 09: Command injection
 - Level 10: Command injection with filtering
+- Level 11: XOR encryption
 
 ## Krypton - Cryptography
 
