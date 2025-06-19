@@ -57,4 +57,6 @@ Password: UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
   ?>
   ```
   - Output: `The new cookie is HmYkBwozJw4WNyAAFyB1VUc9MhxHaHUNAic4Awo2dVVHZzEJAyIxCUc5`
-- Password: `UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk`
+  - Set this new value as the cookie value and reload
+  - ![image](https://github.com/user-attachments/assets/07eb47cb-4693-4963-a176-1a73f0e43ba4)
+- Password: `yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB`
