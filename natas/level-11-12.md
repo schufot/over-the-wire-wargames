@@ -1,4 +1,4 @@
-# [Level 11 to 12](https://overthewire.org/wargames/natas/natas12.html) - XOR encryption
+# [Level 11 to 12](https://overthewire.org/wargames/natas/natas12.html) - Exploit file upload
 
 - Login
 ```
@@ -25,6 +25,8 @@ Password: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
   </body>
   </html>
   ```
+    - Submits a file upload request to the webserver's upload handler `index.php`
+    - Telling the server to save the uploaded file as `natas12_getpass.php`
   - Save the following as file `natas12_getpass.php` and load it into `natas12_form.html`:
   ```php
   <?php
