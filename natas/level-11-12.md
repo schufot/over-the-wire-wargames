@@ -11,6 +11,7 @@ Password: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
 ![image](https://github.com/user-attachments/assets/b98e4e20-afb9-40de-93e8-8192a2cad313)
 
 - Background:
+  - Remote code execution (RCE): Vulnerability that allows a malicious hacker to execute arbitrary code in the programming language in which the developer wrote that application
 - Solution:
   - Save the following as file `natas12_form.html`: 
   ```html
@@ -39,8 +40,8 @@ Password: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
   - Server saves the file to a location like: `http://natas12.natas.labs.overthewire.org/upload/natas12_getpass.php`
   - Visit that URL in the browser
   - Server executes the PHP file and prints the password for natas13
-  ![image](https://github.com/user-attachments/assets/8bf24710-50dd-4eff-bf94-b84b81aa890d)
-  ![image](https://github.com/user-attachments/assets/40f6d645-2567-4c56-86a2-76a2f2465d93)
-  ![image](https://github.com/user-attachments/assets/f8d0abd9-b252-44be-b4b9-aac9f27389a0)
+  - ![image](https://github.com/user-attachments/assets/8bf24710-50dd-4eff-bf94-b84b81aa890d)
+  - ![image](https://github.com/user-attachments/assets/40f6d645-2567-4c56-86a2-76a2f2465d93)
+  - ![image](https://github.com/user-attachments/assets/f8d0abd9-b252-44be-b4b9-aac9f27389a0)
 
 - Password: `trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC`
