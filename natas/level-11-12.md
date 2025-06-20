@@ -33,6 +33,8 @@ Password: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
   system("cat /etc/natas_webpass/natas13")
   ?>
   ```
+    - PHP script that reads the contents of the password file for natas13
+    - When this file is executed by the server, the password will be printed on the webpage
   ![image](https://github.com/user-attachments/assets/8bf24710-50dd-4eff-bf94-b84b81aa890d)
   ![image](https://github.com/user-attachments/assets/40f6d645-2567-4c56-86a2-76a2f2465d93)
   ![image](https://github.com/user-attachments/assets/f8d0abd9-b252-44be-b4b9-aac9f27389a0)
