@@ -35,6 +35,10 @@ Password: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
   ```
     - PHP script that reads the contents of the password file for natas13
     - When this file is executed by the server, the password will be printed on the webpage
+  - Open `natas12_form.html` in a browser and upload `natas12_getpass.php`
+  - Server saves the file to a location like: `http://natas12.natas.labs.overthewire.org/upload/natas12_getpass.php`
+  - Visit that URL in the browser
+  - Server executes the PHP file and prints the password for natas13
   ![image](https://github.com/user-attachments/assets/8bf24710-50dd-4eff-bf94-b84b81aa890d)
   ![image](https://github.com/user-attachments/assets/40f6d645-2567-4c56-86a2-76a2f2465d93)
   ![image](https://github.com/user-attachments/assets/f8d0abd9-b252-44be-b4b9-aac9f27389a0)
