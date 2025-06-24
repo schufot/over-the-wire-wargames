@@ -12,4 +12,9 @@ Password: trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
 
 - Background:
 - Solution:
+  - Try it with a normal .png file
+  ![image](https://github.com/user-attachments/assets/43cfa04b-895f-45a1-8557-ae839d16352e)
+  ![image](https://github.com/user-attachments/assets/5a004dfe-cb4b-4528-bbd5-e1ec61a588dd)
+
+
 - Password: `trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC`
