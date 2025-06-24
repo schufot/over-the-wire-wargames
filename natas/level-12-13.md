@@ -1,4 +1,4 @@
-# [Level 12 to 13](https://overthewire.org/wargames/natas/natas13.html) - Exploit file upload
+# [Level 12 to 13](https://overthewire.org/wargames/natas/natas13.html) - Exploit file upload: GIF Header
 
 - Login
 ```
