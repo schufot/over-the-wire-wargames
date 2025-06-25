@@ -33,12 +33,29 @@ Password: RANDOM
 
   There is a pattern!
 
-  ```
+  ```bash
   - Make a file in `/tmp` and use Python to fill it with 50 `A`s:
   ```bash
   krypton6@bandit:/krypton/krypton6$ mkdir /tmp/krypton6_tmp
   krypton6@bandit:/krypton/krypton6$ cd /tmp/krypton6_tmp
   krypton6@bandit:/tmp/krypton6_tmp$ touch test.txt
   krypton6@bandit:/tmp/krypton6_tmp$ python3 -c "print('A'*50)" > test.txt
+  ```
+  - Link the keyfile and run the encryption program:
+  ```bash
+  krypton6@bandit:/tmp/krypton6_tmp$ ln -s /krypton/krypton6/keyfile.dat 
+  krypton6@bandit:/tmp/krypton6_tmp$ /krypton/krypton6/encrypt6 test.txt output.txt
+  krypton6@bandit:/tmp/krypton6_tmp$ cat output.txt
+  EICTDGYIYZKTHNSIRFXYCPFUEOCKRNEICTDGYIYZKTHNSIRFXY
+  ```
+  - Output repeats after a certain number of characters:
+  ```txt
+  EICTDGYIYZKTHNSIRFXYCPFUEOCKRN
+  EICTDGYIYZKTHNSIRFX
+  ```
+  - Output for `B`s:
+  ```txt
+  FJDUEHZJZALUIOTJSGYZDQGVFPDLSO
+  FJDUEHZJZALUIOTJSGY
   ```
 - Password: `RANDOM`
