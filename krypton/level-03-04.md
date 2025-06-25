@@ -48,6 +48,9 @@ Password: CAESARISEASY
   - README says that the original texts are in English -> Hint to use frequency anaylsis to use key
   - Paste `found1` and `found2` to `https://md5decrypt.net/en/Letters-frequency-analysis/`:
     - ![image](https://github.com/user-attachments/assets/3c18a2e0-d835-4c03-830e-8cfe890e9387)
-    - `s` in the ciphertext likely maps to `e` in plaintext, `Q` to `t`, and so on
+    - `s` in the ciphertext likely maps to `e` in plaintext, `Q` to `a`, and so on
+  - Paste `found1` and `found2` to `https://www.boxentriq.com/code-breaking/frequency-analysis`:
+    - ![image](https://github.com/user-attachments/assets/e23f563c-10f4-488f-a9e6-b791ac6347e7)
+    - `JDS` is the most common three letter trigraph in the text -> Likely maps to `the` or `and`
 
 - Password: `CAESARISEASY`
