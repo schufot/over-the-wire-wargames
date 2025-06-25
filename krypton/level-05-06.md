@@ -6,7 +6,8 @@ SSH: ssh krypton5@krypton.labs.overthewire.org -p 2231
 Password: CLEARTEXT
 ```
 - Exercise: FA can break a known key length as well. Lets try one last polyalphabetic cipher, but this time the key length is unknown. Note: the text is writen in American English. Enjoy.
-- Background:
+- Background: Vigenère cipher
+  - Method of encrypting alphabetic text where each letter of the plaintext is encoded with a different Caesar cipher, whose increment is determined by the corresponding letter of another text, the key
 - Solution:
   ```bash
   krypton5@bandit:~$ cd /krypton/krypton5
