@@ -52,5 +52,9 @@ Password: CAESARISEASY
   - Paste `found1` and `found2` to `https://www.boxentriq.com/code-breaking/frequency-analysis`:
     - ![image](https://github.com/user-attachments/assets/e23f563c-10f4-488f-a9e6-b791ac6347e7)
     - `JDS` is the most common three letter trigraph in the text -> Likely maps to `the` or `and`
-  - Paste `found1` and `found2` to `https://quipqiup.com/` with clue S=E and Q=A:
-- Password: `CAESARISEASY`
+  - Paste `found1` and `found2` to `https://quipqiup.com/` with clue S=E and Q=A and password from file `krypton4`:
+    ```bash
+    krypton3@bandit:/krypton/krypton3$ cat krypton4 KSVVW BGSJD SVSIS VXBMN YQUUK BNWCU ANMJS
+    ```
+    - ![image](https://github.com/user-attachments/assets/eb4b6ef0-e2a1-4844-ba09-312260739c73)
+- Password: `BRUTE`
