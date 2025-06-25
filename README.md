@@ -64,3 +64,4 @@
 - Level 03: Caesar cipher
 - Level 04: Frequency Analysis
 - Level 05: Vigenère cipher
+- Level 06: Vigenère Cipher without keylength
