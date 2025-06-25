@@ -1,4 +1,4 @@
-# [Level 03-04](https://overthewire.org/wargames/krypton/krypton3.html) - ROT13
+# [Level 03-04](https://overthewire.org/wargames/krypton/krypton3.html) - Frequency Analysis
 
 - Login
 ```
@@ -6,7 +6,11 @@ SSH: ssh krypton3@krypton.labs.overthewire.org -p 2231
 Password: CAESARISEASY
 ```
 - Exercise: Well done. You’ve moved past an easy substitution cipher. The main weakness of a simple substitution cipher is repeated use of a simple key. In the previous exercise you were able to introduce arbitrary plaintext to expose the key. In this example, the cipher mechanism is not available to you, the attacker. However, you have been lucky. You have intercepted more than one message. The password to the next level is found in the file ‘krypton4’. You have also found 3 other files. (found1, found2, found3). You know the following important details: The message plaintexts are in American English (*** very important) - They were produced from the same key (*** even better!). Enjoy.
-- Background:
+- Background: Frequency analysis
+  - = Study of the frequency of letters or groups of letters in a ciphertext
+  - Used as an aid to breaking classical ciphers
+  - Based on the fact that, in any given stretch of written language, certain letters and combinations of letters occur with varying frequencies
+  - There is a characteristic distribution of letters that is roughly the same for almost all samples of that language
 - Solution:
 
   ```bash
@@ -56,5 +60,5 @@ Password: CAESARISEASY
     ```bash
     krypton3@bandit:/krypton/krypton3$ cat krypton4 KSVVW BGSJD SVSIS VXBMN YQUUK BNWCU ANMJS
     ```
-    - ![image](https://github.com/user-attachments/assets/eb4b6ef0-e2a1-4844-ba09-312260739c73)
+    - ![image](https://github.com/user-attachments/assets/965cda60-52b8-44cf-8b05-406340211055)
 - Password: `BRUTE`
