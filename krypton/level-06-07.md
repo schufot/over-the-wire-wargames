@@ -25,4 +25,20 @@ Password: RANDOM
   
 - Background:
 - Solution:
+  - HINT1:
+  ```bash
+  krypton6@bandit:/krypton/krypton6$ cat HINT1
+  The 'random' generator has a limited number of bits, and is periodic.
+  Entropy analysis and a good look at the bytes in a hex editor will help.
+
+  There is a pattern!
+
+  ```
+  - Make a file in `/tmp` and use Python to fill it with 50 `A`s:
+  ```bash
+  krypton6@bandit:/krypton/krypton6$ mkdir /tmp/krypton6_tmp
+  krypton6@bandit:/krypton/krypton6$ cd /tmp/krypton6_tmp
+  krypton6@bandit:/tmp/krypton6_tmp$ touch test.txt
+  krypton6@bandit:/tmp/krypton6_tmp$ python3 -c "print('A'*50)" > test.txt
+  ```
 - Password: `RANDOM`
