@@ -1,6 +1,6 @@
 # [Over the Wire Wargames](https://overthewire.org/wargames/) Write Ups
 
-## Bandit - Basics (Done)
+## [Bandit - Basics](https://overthewire.org/wargames/bandit/) (Done)
 
 - Level 00: SSH login
 - Level 01: Read a file
@@ -38,9 +38,7 @@
 - Level 33: Linux variables and shell escape
 - Level 34: /
 
-## Leviathan - nix commands
-
-## Natas - Serverside web-security (In Progress)
+## [Natas - Serverside web-security](https://overthewire.org/wargames/natas/) (In Progress)
 
 - Level 00: HTML
 - Level 01: Dev tools
@@ -57,7 +55,9 @@
 - Level 12: Exploit file upload
 - Level 13: Exploit file upload: GIF Header
 
-## Krypton - Cryptography (Done)
+## [Leviathan - nix commands](https://overthewire.org/wargames/leviathan/) (In Progress)
+
+## [Krypton - Cryptography](https://overthewire.org/wargames/krypton/) (Done)
 
 - Level 01: Base64
 - Level 02: ROT13
@@ -65,4 +65,23 @@
 - Level 04: Frequency Analysis
 - Level 05: Vigenère cipher
 - Level 06: Vigenère Cipher without keylength
-- Levl 07: Linear-feedback shift register
+- Level 07: Linear-feedback shift register
+
+## [Narnia - Basic exploitation](https://overthewire.org/wargames/narnia/) (In Progress)
+
+## [Behemoth - Regular vulnerabilities](https://overthewire.org/wargames/behemoth/) (In Progress)
+
+## [Utumno](https://overthewire.org/wargames/utumno/) (In Progress)
+
+## [Maze - Exploitation-techniques, programming and reverse-engineering](https://overthewire.org/wargames/maze/) (In Progress)
+
+## [Vortex](https://overthewire.org/wargames/vortex/) (In Progress)
+
+## [Manpage - Common linux c-programming misconceptions](https://overthewire.org/wargames/manpage/) (In Progress)
+
+## [Drifter](https://overthewire.org/wargames/drifter/) (In Progress)
+
+## [FormulaOne](https://overthewire.org/wargames/formulaone/) (In Progress)
+
+## [Semtex - Network programming, reverse engineering, buffer overflows and combinatorial analysis](https://overthewire.org/wargames/semtex/) (In Progress)
+
