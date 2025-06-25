@@ -1,4 +1,4 @@
-# [Level 06-07](https://overthewire.org/wargames/krypton/krypton6.html) - Vigenère Cipher without keylength
+# [Level 06-07](https://overthewire.org/wargames/krypton/krypton6.html) - Linear-feedback shift register
 
 - Login
 ```
@@ -23,7 +23,10 @@ Password: RANDOM
   Its time to employ a stream cipher. A stream cipher attempts to create an on-the-fly ‘random’ keystream to encrypt the incoming plaintext one byte at a time. Typically, the ‘random’ key byte is xor’d with the plaintext to produce the ciphertext. If the random keystream can be replicated at the recieving end, then a further xor will produce the plaintext once again.
   From this example forward, we will be working with bytes, not ASCII text, so a hex editor/dumper like hexdump is a necessity. Now is the right time to start to learn to use tools like cryptool.
   
-- Background:
+- Background: Linear-feedback shift register
+  - Shift register whose input bit is a linear function of its previous state
+  - Most commonly used linear function of single bits is exclusive-or (XOR)
+  - LFSR is most often a shift register whose input bit is driven by the XOR of some bits of the overall shift register value
 - Solution:
   - HINT1:
   ```bash
