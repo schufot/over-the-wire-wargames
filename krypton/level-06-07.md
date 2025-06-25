@@ -58,4 +58,37 @@ Password: RANDOM
   FJDUEHZJZALUIOTJSGYZDQGVFPDLSO
   FJDUEHZJZALUIOTJSGY
   ```
-- Password: `RANDOM`
+  - `A->E`: Shift of 4 for the first letter
+  - `A->I`: Shift of 8 for the second letter
+  ```bash
+  krypton6@bandit:/krypton/krypton6$ cat krypton7
+  PNUKLYLWRQKGKBE
+  ```
+  - Python script to automate this:
+  ```python
+  import string
+  
+  cipher = "PNUKLYLWRQKGKBE"
+  cipherlength = len(cipher)
+  
+  for i in range(0, cipherlength): 
+      chosen = "AAAAAAAAAAAAAAA"
+      encoded = "EICTDGYIYZKTHNS"
+      print(ord(encoded[i]) - ord(chosen[i]))
+  
+  # the above prints: 4, 8, 2, 19, 3, 6, 24, 8, 24, 25, 10, 19, 7, 13, 18
+  
+  flag = ""
+  decode = [4, 8, 2, 19, 3, 6, 24, 8, 24, 25, 10, 19, 7, 13, 18]
+  
+  for i in range(0, cipherlength): 
+      char = ord(cipher[i]) # get the ciphertext character
+      result = char - decode[i] # subtract to decode
+      if (chr(result) not in string.ascii_letters): 
+          result = char - decode[i] + 26
+  
+      flag += chr(result)
+  
+  print(flag)
+  ```
+- Password: `LFSRISNOTRANDOM`
