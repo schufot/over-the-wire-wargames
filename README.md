@@ -63,3 +63,4 @@
 - Level 02: ROT13
 - Level 03: Caesar cipher
 - Level 04: Frequency Analysis
+- Level 05: Vigenère cipher
