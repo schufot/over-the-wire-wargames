@@ -65,3 +65,4 @@
 - Level 04: Frequency Analysis
 - Level 05: Vigenère cipher
 - Level 06: Vigenère Cipher without keylength
+- Levl 07: Linear-feedback shift register
