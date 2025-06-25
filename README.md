@@ -54,6 +54,8 @@
 - Level 09: Command injection
 - Level 10: Command injection with filtering
 - Level 11: XOR encryption
+- Level 12: Exploit file upload
+- Level 13: Exploit file upload: GIF Header
 
 ## Krypton - Cryptography
 
