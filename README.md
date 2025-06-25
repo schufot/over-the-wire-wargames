@@ -1,6 +1,6 @@
 # [Over the Wire Wargames](https://overthewire.org/wargames/) Write Ups
 
-## Bandit - Basics
+## Bandit - Basics (Done)
 
 - Level 00: SSH login
 - Level 01: Read a file
@@ -40,7 +40,7 @@
 
 ## Leviathan - nix commands
 
-## Natas - Serverside web-security
+## Natas - Serverside web-security (In Progress)
 
 - Level 00: HTML
 - Level 01: Dev tools
@@ -57,8 +57,9 @@
 - Level 12: Exploit file upload
 - Level 13: Exploit file upload: GIF Header
 
-## Krypton - Cryptography
+## Krypton - Cryptography (Done)
 
 - Level 01: Base64
 - Level 02: ROT13
 - Level 03: Caesar cipher
+- Level 04: Frequency Analysis
