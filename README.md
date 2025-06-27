@@ -54,6 +54,7 @@
 - Level 11: XOR encryption
 - Level 12: Exploit file upload
 - Level 13: Exploit file upload: GIF Header
+- Level 14: SQL injection
 
 ## [Leviathan - nix commands](https://overthewire.org/wargames/leviathan/) (In Progress)
 
