@@ -1,4 +1,4 @@
-# [Level 13 to 14](https://overthewire.org/wargames/natas/natas14.html) - Exploit file upload: GIF Header
+# [Level 13 to 14](https://overthewire.org/wargames/natas/natas14.html) - SQL injection
 
 - Login
 ```
