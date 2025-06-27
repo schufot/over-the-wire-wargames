@@ -11,4 +11,9 @@ Password: z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ
   ![image](https://github.com/user-attachments/assets/8f2b9887-55c0-4958-917b-dd930894220e)
 - Background:
 - Solution:
-- Password: `z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ`
+
+  - ![image](https://github.com/user-attachments/assets/55642d87-cd5c-4887-abe4-8b4242343d1d)
+  - ![image](https://github.com/user-attachments/assets/be860f19-a586-4812-8a4e-032f7b44e198)
+
+
+- Password: `SdqIqBsFcz3yotlNYErZSZwblkm0lrvx`
