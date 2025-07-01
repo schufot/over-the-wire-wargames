@@ -15,6 +15,6 @@ Password: SdqIqBsFcz3yotlNYErZSZwblkm0lrvx
    - If `username` is included in the request, connect to the database, and `SELECT` all from table users where the username = user input
    - If the debug key exists on the request, show the query to the user
    - If the number of rows is greater than 0, say that the user exists
-
+   - No place where the selected rows will be displayed to the user
 
 - Password: `SdqIqBsFcz3yotlNYErZSZwblkm0lrvx`
