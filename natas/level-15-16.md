@@ -1,4 +1,4 @@
-# [Level 15 to 16](https://overthewire.org/wargames/natas/natas16.html) - Blind SQL injection
+# [Level 15 to 16](https://overthewire.org/wargames/natas/natas16.html)
 
 - Login
 ```
