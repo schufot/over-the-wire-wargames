@@ -75,15 +75,15 @@
 
 ## [Utumno](https://overthewire.org/wargames/utumno/) (In Progress)
 
-## [Maze: Exploitation-techniques, programming and reverse-engineering](https://overthewire.org/wargames/maze/) (In Progress)
+## [Maze](https://overthewire.org/wargames/maze/): Exploitation-techniques, programming and reverse-engineering (In Progress)
 
 ## [Vortex](https://overthewire.org/wargames/vortex/) (In Progress)
 
-## [Manpage: Common linux c-programming misconceptions](https://overthewire.org/wargames/manpage/) (In Progress)
+## [Manpage](https://overthewire.org/wargames/manpage/): Common linux c-programming misconceptions (In Progress)
 
 ## [Drifter](https://overthewire.org/wargames/drifter/) (In Progress)
 
 ## [FormulaOne](https://overthewire.org/wargames/formulaone/) (In Progress)
 
-## [Semtex: Network programming, reverse engineering, buffer overflows and combinatorial analysis](https://overthewire.org/wargames/semtex/) (In Progress)
+## [Semtex](https://overthewire.org/wargames/semtex/): Network programming, reverse engineering, buffer overflows and combinatorial analysis (In Progress)
 
