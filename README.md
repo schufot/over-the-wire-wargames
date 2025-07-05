@@ -38,7 +38,7 @@
 - Level 33: Linux variables and shell escape
 - Level 34: /
 
-## [Natas: Serverside web-security](https://overthewire.org/wargames/natas/) (In Progress)
+## [Natas](https://overthewire.org/wargames/natas/): Serverside web-security (In Progress)
 
 - Level 00: HTML
 - Level 01: Dev tools
@@ -57,9 +57,9 @@
 - Level 14: SQL injection
 - Level 15: Blind SQL injection
 
-## [Leviathan: nix commands](https://overthewire.org/wargames/leviathan/) (In Progress)
+## [Leviathan](https://overthewire.org/wargames/leviathan/): nix commands (In Progress)
 
-## [Krypton: Cryptography](https://overthewire.org/wargames/krypton/) (Done)
+## [Krypton](https://overthewire.org/wargames/krypton/): Cryptography (Done)
 
 - Level 01: Base64
 - Level 02: ROT13
@@ -69,9 +69,9 @@
 - Level 06: Vigenère Cipher without keylength
 - Level 07: Linear-feedback shift register
 
-## [Narnia: Basic exploitation](https://overthewire.org/wargames/narnia/) (In Progress)
+## [Narnia](https://overthewire.org/wargames/narnia/): Basic exploitation (In Progress)
 
-## [Behemoth: Regular vulnerabilities](https://overthewire.org/wargames/behemoth/) (In Progress)
+## [Behemoth](https://overthewire.org/wargames/behemoth/): Regular vulnerabilities (In Progress)
 
 ## [Utumno](https://overthewire.org/wargames/utumno/) (In Progress)
 
