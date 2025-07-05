@@ -1,6 +1,6 @@
 # [Over the Wire Wargames](https://overthewire.org/wargames/) Write Ups
 
-## [Bandit: Basics](https://overthewire.org/wargames/bandit/) (Done)
+## [Bandit](https://overthewire.org/wargames/bandit/): Basics (Done)
 
 - Level 00: SSH login
 - Level 01: Read a file
