@@ -91,4 +91,5 @@ Password: hPkjKYviLQctEW33QmuXL6eDVfMW4sGo
               print("Found a valid char : %s" % (password+c))
               password += c
   ```
+  - python script to iterate through each of the valid chars and doing a POST request
 - Password: `hPkjKYviLQctEW33QmuXL6eDVfMW4sGo`
