@@ -92,7 +92,7 @@ Password: hPkjKYviLQctEW33QmuXL6eDVfMW4sGo
               password += c
   ```
   - python script to iterate through each of the valid chars and doing a POST request
-  ```
+  ```python
   import requests
   import string
   import time
