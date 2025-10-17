@@ -38,7 +38,7 @@
 - Level 33: Linux variables and shell escape
 - Level 34: /
 
-## [Natas](https://overthewire.org/wargames/natas/): Serverside web-security (In Progress)
+## [Natas](https://overthewire.org/wargames/natas/): Serverside web-security (WIP)
 
 - Level 00: HTML
 - Level 01: Dev tools
@@ -57,7 +57,7 @@
 - Level 14: SQL injection
 - Level 15: Blind SQL injection
 
-## [Leviathan](https://overthewire.org/wargames/leviathan/): nix commands (In Progress)
+## [Leviathan](https://overthewire.org/wargames/leviathan/): nix commands (WIP)
 
 ## [Krypton](https://overthewire.org/wargames/krypton/): Cryptography (Done)
 
@@ -69,21 +69,21 @@
 - Level 06: Vigenère Cipher without keylength
 - Level 07: Linear-feedback shift register
 
-## [Narnia](https://overthewire.org/wargames/narnia/): Basic exploitation (In Progress)
+## [Narnia](https://overthewire.org/wargames/narnia/): Basic exploitation (WIP)
 
-## [Behemoth](https://overthewire.org/wargames/behemoth/): Regular vulnerabilities (In Progress)
+## [Behemoth](https://overthewire.org/wargames/behemoth/): Regular vulnerabilities (WIP)
 
-## [Utumno](https://overthewire.org/wargames/utumno/) (In Progress)
+## [Utumno](https://overthewire.org/wargames/utumno/) (WIP)
 
-## [Maze](https://overthewire.org/wargames/maze/): Exploitation-techniques, programming and reverse-engineering (In Progress)
+## [Maze](https://overthewire.org/wargames/maze/): Exploitation-techniques, programming and reverse-engineering (WIP)
 
-## [Vortex](https://overthewire.org/wargames/vortex/) (In Progress)
+## [Vortex](https://overthewire.org/wargames/vortex/) (WIP)
 
-## [Manpage](https://overthewire.org/wargames/manpage/): Common linux c-programming misconceptions (In Progress)
+## [Manpage](https://overthewire.org/wargames/manpage/): Common linux c-programming misconceptions (WIP)
 
-## [Drifter](https://overthewire.org/wargames/drifter/) (In Progress)
+## [Drifter](https://overthewire.org/wargames/drifter/) (WIP)
 
-## [FormulaOne](https://overthewire.org/wargames/formulaone/) (In Progress)
+## [FormulaOne](https://overthewire.org/wargames/formulaone/) (WIP)
 
-## [Semtex](https://overthewire.org/wargames/semtex/): Network programming, reverse engineering, buffer overflows and combinatorial analysis (In Progress)
+## [Semtex](https://overthewire.org/wargames/semtex/): Network programming, reverse engineering, buffer overflows and combinatorial analysis (WIP)
 
